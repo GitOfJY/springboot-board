@@ -1,0 +1,35 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Heap Dump
+*.hprof
+*.dump
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# MacOS
+.DS_Store
+# Logs
+*.log
+logs/
+
+# Test Results
+**/test-results/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
