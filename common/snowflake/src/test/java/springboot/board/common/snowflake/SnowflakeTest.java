@@ -1,4 +1,4 @@
-package kuke.board.common.snowflake;
+package springboot.board.common.snowflake;
 
 import static org.assertj.core.api.Assertions.*;
 
