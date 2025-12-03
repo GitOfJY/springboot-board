@@ -1,11 +1,13 @@
 package springboot.board.hotarticle.service.response;
 
 import lombok.Getter;
+import lombok.ToString;
 import springboot.board.hotarticle.client.ArticleClient;
 
 import java.time.LocalDateTime;
 
 @Getter
+@ToString
 public class HotArticleResponse {
     private Long articleId;
     private String title;
