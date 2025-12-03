@@ -2,6 +2,7 @@ package springboot.board.view.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import springboot.board.common.outboxmessagerelay.OutboxEventPublisher;
 import springboot.board.view.repository.ArticleViewCountRepository;
 import springboot.board.view.repository.ArticleViewDistributedLockRepository;
 
