@@ -270,24 +270,3 @@ view::article::{articleId}::user::{userId}::lock → TTL 600초
 | Method | URI | 설명 |
 |--------|-----|------|
 | GET | `/v1/hot-articles/articles/date/{dateStr}` | 날짜별 인기글 목록 |
-
----
-
-## 실행 환경
-
-### 사전 준비
-- Java 21+
-- MySQL 8.0+
-- Redis 7.0+
-- Apache Kafka
-
-### 실행
-
-```bash
-./gradlew :service:article:bootRun
-./gradlew :service:comment:bootRun
-./gradlew :service:like:bootRun
-./gradlew :service:view:bootRun
-./gradlew :service:hot-article:bootRun
-./gradlew :service:article-read:bootRun
-```
